@@ -496,7 +496,7 @@ dataMurid.forEach(data => {
               </div>
             </div>
             <div class="circle">
-              <img src="img/siswa_${data.gender}.png" alt="Foto Profil" />
+              <img src="img/siswa_${data.gender.toLowerCase()}.png" alt="Foto Profil" />
             </div>
           </div>`;
   mainCard.innerHTML = mainCardDoc;
